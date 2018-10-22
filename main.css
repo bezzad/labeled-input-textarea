@@ -1,0 +1,157 @@
+.cf-elm {
+    position: relative;
+    padding-top: 10px;
+    color: rgb(83, 83, 83);
+    width: 250px;
+}
+
+.cf-fancy-form {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    direction: rtl;
+}
+
+.cf-fancy-form>input, .cf-fancy-form>textarea {
+    font-family: 'B Nazanin', Arial, sans-serif;
+}
+
+.cf-fancy-input {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.cf-fancy-input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+.cf-fancy-input::-moz-placeholder {
+    color: #999;
+    opacity: 1
+}
+
+.cf-fancy-input:-ms-input-placeholder {
+    color: #999
+}
+
+.cf-fancy-input::-webkit-input-placeholder {
+    color: #999
+}
+
+.cf-fancy-input::-ms-expand {
+    border: 0;
+    background-color: transparent
+}
+
+.cf-fancy-input[disabled], .cf-fancy-input[readonly], fieldset[disabled] .cf-fancy-input {
+    background-color: #eee;
+    opacity: 1
+}
+
+.cf-fancy-input[disabled], fieldset[disabled] .cf-fancy-input {
+    cursor: not-allowed
+}
+
+textarea.cf-fancy-input {
+    height: auto
+}
+
+.cf-fancy-form .cf-fancy-input {
+    height: auto;
+    padding: 26px 16px 6px;
+}
+
+.cf-fancy-form .cf-fancy-input {
+    font-size: 14px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.06) 1px 2px 0px inset;
+    line-height: 1.6;
+    outline: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(217, 217, 217);
+    border-image: initial;
+}
+
+.cf-elm textarea, .cf-elm select, .cf-elm input {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.cf-fancy-form .cf-fancy-input {
+    padding-right: 10px;
+}
+
+label {
+    cursor: default;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.cf-fancy-form-label {
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 6px;
+    right: 16px;
+    cursor: text;
+    transition: all 0.25s ease 0s;
+}
+
+.cf-fancy-form-input:focus+.cf-fancy-form-label, .cf-fancy-form-textarea:focus+.cf-fancy-form-label {
+    color: silver
+}
+
+.cf-fancy-form .cf-fancy-input {
+    padding: 26px 16px 6px;
+    height: auto
+}
+
+.cf-fancy-form-input::-webkit-input-placeholder {
+    color: #bababa
+}
+
+.cf-fancy-form-input:-ms-input-placeholder, .cf-fancy-form-input::-ms-input-placeholder {
+    color: #bababa
+}
+
+.cf-fancy-form-input::placeholder {
+    color: #bababa
+}
+
+.cf-fancy-form-input:focus::-webkit-input-placeholder {
+    color: #d7d7d7
+}
+
+.cf-fancy-form-input:focus:-ms-input-placeholder, .cf-fancy-form-input:focus::-ms-input-placeholder {
+    color: #d7d7d7
+}
+
+.cf-fancy-form-input:focus::placeholder {
+    color: #d7d7d7
+}
+
+.cf-fancy-form .cf-fancy-form-label {
+    right: 25px;
+}
